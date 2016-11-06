@@ -1,0 +1,9 @@
+package Techosoft;
+
+public class fibonaciinforloop {
+	public static void main(String args[])
+	{
+		
+	}
+
+}

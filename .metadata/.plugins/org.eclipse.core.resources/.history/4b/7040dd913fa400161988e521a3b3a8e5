@@ -1,0 +1,20 @@
+package GenarutilityPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+	public static void main(String args[]) {
+		//Scanner sc = new Scanner(System.in);
+		int interger = 5;
+		for (int i = 2; i <= interger / 2; i++) {
+			if (interger % 2 == 0) {
+				System.out.println("is not prime number");
+			}
+			else 
+			{
+				System.out.println(interger+"= is a prime number");
+			}
+		}
+	}
+
+}

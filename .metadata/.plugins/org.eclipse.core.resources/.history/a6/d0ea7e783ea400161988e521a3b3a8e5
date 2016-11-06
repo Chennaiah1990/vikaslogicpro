@@ -1,0 +1,21 @@
+package GenarutilityPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumbersList {
+	public static void main(String args[]) {
+		// Scanner sc = new Scanner(System.in);
+		int interger = 100;
+		for (int j = 2; j < interger; j++) {
+
+			for (int i = 2; i <= j / 2; i++) {
+				if (interger % 2 == 0) {
+					//System.out.println("is not prime number");
+				} else {
+					System.out.println(j + "= is a prime number");
+				}
+			}
+		}
+	}
+
+}

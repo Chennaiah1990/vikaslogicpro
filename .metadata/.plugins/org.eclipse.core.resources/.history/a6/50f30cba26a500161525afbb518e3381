@@ -1,0 +1,23 @@
+package GenarutilityPrograms;
+
+public class fibonaciinforloop {
+	public static void main(String args[])
+	{
+		int varbleone=0,varibletwo=1,results;
+		int count=0;
+		for(int i=0;i<100;i++)
+		{
+			results=varbleone+varibletwo;
+			if(results>=100)
+			{
+				break;
+			}
+			varbleone=varibletwo;
+			varibletwo=results;
+			System.out.println(results);
+			count++;
+		}
+		System.out.println(count);
+	}
+
+}

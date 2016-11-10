@@ -1,0 +1,14 @@
+package com.geico.reusablepack;
+
+import org.openqa.selenium.WebDriver;
+
+import com.geico.locaterspack.Locaters;
+
+public class ReUsableFunction extends Locaters {
+
+	public ReUsableFunction(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+}

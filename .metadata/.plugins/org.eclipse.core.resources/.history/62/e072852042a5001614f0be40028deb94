@@ -1,0 +1,13 @@
+package com.geico.elementspack;
+
+import org.openqa.selenium.WebDriver;
+
+public class Locaters {
+	public WebDriver driver;
+	public Locaters(WebDriver driver) {
+		this.driver=driver;
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

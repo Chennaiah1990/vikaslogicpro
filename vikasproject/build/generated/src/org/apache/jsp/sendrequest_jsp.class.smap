@@ -1,0 +1,11 @@
+SMAP
+sendrequest_jsp.java
+JSP
+*S JSP
+*F
++ 0 sendrequest.jsp
+sendrequest.jsp
+*L
+1,4:47
+6,12:52
+*E

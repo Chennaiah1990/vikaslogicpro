@@ -1,0 +1,9 @@
+package com.geico.browserpack;
+
+import com.geico.reusablepack.ReUsableFunction;
+
+public class OpenBrowser {
+	ReUsableFunction refunobject;
+	
+
+}

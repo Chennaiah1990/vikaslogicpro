@@ -1,0 +1,17 @@
+package GenarutilityPrograms;
+
+public class PrimeNumbers {
+	public static void main(String args[]) {
+		for (int j = 2; j < 100; j++) {
+			int interger = j;
+			for (int i = 2; i <= interger / 2; i++) {
+				if (interger % 2 == 0) {
+					//System.out.println("is not prime number");
+				} else {
+					System.out.println(interger + "= is a prime number");
+					break;
+				}
+			}
+		}
+	}
+}

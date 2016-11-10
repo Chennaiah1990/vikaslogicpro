@@ -1,0 +1,15 @@
+package GenarutilityPrograms;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		int j=10,fact = 0;
+		for(int i=j;j>=i;i--)
+		{
+			 fact=j*i-1;
+		}
+		System.out.println(fact);
+
+	}
+
+}

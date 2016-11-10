@@ -1,0 +1,20 @@
+package patternPrograms;
+
+public class vikasptrn {
+	public static void main(String args[])
+	{
+		for(int i=1;i<5;i++)
+		{
+			for(char j='E';j>i;j--)
+			{
+				System.out.print(" ");
+			}
+			for(char k='A';k<=i;k++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+}

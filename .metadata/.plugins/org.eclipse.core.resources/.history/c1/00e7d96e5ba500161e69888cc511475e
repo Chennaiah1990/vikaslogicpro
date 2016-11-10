@@ -1,0 +1,5 @@
+package com.geico.browserpack;
+
+public class OpenBrowser {
+
+}

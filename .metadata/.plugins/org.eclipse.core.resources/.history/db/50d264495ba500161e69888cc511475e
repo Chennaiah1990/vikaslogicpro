@@ -1,0 +1,9 @@
+package GeicoGroup.Geico;
+
+import org.openqa.selenium.WebDriver;
+
+import com.geico.reusablepack.ReUsableFunction;
+
+public class LoginSenario {
+
+}

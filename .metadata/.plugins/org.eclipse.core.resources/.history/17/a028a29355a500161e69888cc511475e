@@ -1,0 +1,14 @@
+package com.geico.locaterspack;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Locaters {
+	public WebDriver driver;
+	public Locaters(WebDriver driver) {
+		this.driver=driver;
+	}
+	@FindBy(xpath="//input[@name='userName']") public WebElement usernamr;
+	@FindBy(xpath="//input[@name='password']") public WebElement userpassword;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="loveyoupapa">
+  <test name="vikaspractice">
+  <parameter name="browser" value="FF"/>
+  <parameter name="url" value="http://49.206.196.246:8080/Cyclos/do/login"/>  
+    <classes>
+      <class name="GeicoGroup.Geico.AppTest"/>
+      <class name="GeicoGroup.Geico.LoginSenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

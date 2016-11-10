@@ -1,0 +1,20 @@
+package GenarutilityPrograms;
+
+public class PrimeNumbers {
+	public static void main(String args[])
+	{
+		int vikas=100;
+		for (int i=1;i<i/2;i++)
+		{
+			if(i%2==0)
+			{
+				
+			}
+			else 
+			{
+				System.out.println(i);
+			}
+		}
+	}
+
+}

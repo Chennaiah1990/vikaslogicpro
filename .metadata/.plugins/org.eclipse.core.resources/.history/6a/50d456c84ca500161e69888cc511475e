@@ -1,0 +1,11 @@
+package com.geico.locaterspack;
+
+import org.openqa.selenium.WebDriver;
+
+public class Locaters {
+	public WebDriver driver;
+	public Locaters(WebDriver driver) {
+		this.driver=driver;
+	}
+	@FindBy(xpath="")
+}
